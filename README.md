@@ -93,7 +93,7 @@ Kafka tutorial
    * *Consumers automatically know which broker to read from*
    * *In case of broker failures, consumers know how to recover*
    * Data is read in order from low to high within each partitions
-1.  Consumer Deserliazer
+1. Consumer Deserliazer
    * Deserliaze indicates how to transform bytes into objects/data
    * Consumer should know in advance what serializers are used on the key and value of an incoming message
    * Common Deserializers: String(including JSON), Int, Float, Avro, Protobuf
