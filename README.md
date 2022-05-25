@@ -218,6 +218,4 @@ Kafka tutorial
 
     #Consumer group - reset partition offsets backward by 2 for a topic
     kafka-consumer-groups --bootstrap-server localhost:9092 --group firstGroup --reset-offsets --shift-by -2 --execute --topic firstTopic
-
-    #
 ```
